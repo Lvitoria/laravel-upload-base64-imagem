@@ -10,7 +10,7 @@
 ## Upload de imagem base64 com Laravel 8
 
 
-Basta instalar as dependências do Laravel e depois rodar ele e testar, para saber mais informações de como se faz esta transformação é só olhar a [controller upload](https://github.com/Lvitoria/laravel-upload-base64-imagem/blob/master/app/Http/Controllers/upload.php)
+Basta instalar as dependências do Laravel `composer install` duplicar o .env.exemplo e renomear para .env gerar uma a key `php artisan key:generate` e depois rodar ele `php artisan serve`, para saber mais informações de como se faz esta transformação é só olhar a [controller upload](https://github.com/Lvitoria/laravel-upload-base64-imagem/blob/master/app/Http/Controllers/upload.php)
 
 ## Referência
 [stack overflow](https://pt.stackoverflow.com/questions/153357/upload-de-imagem-transformando-para-base64-laravel)
